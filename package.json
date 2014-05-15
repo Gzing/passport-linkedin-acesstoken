@@ -1,0 +1,30 @@
+{
+  "name": "passport-linkedin-accesstoken",
+  "description": "LinkedIn authentication strategy using access tokens for Passport.",
+  "keywords": [
+    "passport",
+    "linkedin",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+
+  "author": {
+    "name": "Gagandeep Singh",
+    "email": "gagan.zingh@gmail.com",
+  },
+
+  "main": "./lib/passport-linkedin",
+  "dependencies": {
+    "passport-oauth": "0.1.x"
+  },
+
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+ 
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
